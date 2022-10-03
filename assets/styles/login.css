@@ -1,0 +1,80 @@
+@import url(../styles/home.css);
+
+:root{
+    --fundo-cinza: #818181;
+    --fundo-card: #F8C2C2;
+    --texto-branco: #FFFFFF;
+    --texto-preto: #000000;
+    --cor-butao:  #4ADEFF;
+    --butao-hover:blue;
+}
+
+
+.tela__login{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 500px;
+    background: var(--fundo-card);
+    border-radius: 32px;
+    margin-top: 45px;
+    margin-left: 320px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.container__titulo{
+    margin-top: 24px;
+}
+
+.login__titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: var(--texto-preto);
+}
+
+.titulo__input{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top:50px;
+    margin-bottom: 10px;
+    margin-left: 175px;
+}
+
+.input{
+    width: 400px;
+    height: 36px;
+    border: none;
+    border-radius: 32px;
+    margin-left:175px;
+}
+
+.cadastro__link{
+    font-weight: 400;
+    font-size: 20px;
+    color: #0B758C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin: 30px auto;
+}
+
+.login__butao{
+    width: 230px;
+    height: 46px;
+    font-weight: bold;
+    border-radius: 32px;
+    border: none;
+    color: var(--texto-branco);
+    background: var(--cor-butao);
+    margin-left: 285px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.login__butao:hover{
+    background: var(--butao-hover);
+}
