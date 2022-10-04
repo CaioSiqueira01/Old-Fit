@@ -17,12 +17,12 @@
 }
 
 .logo{
-    margin-left: 130px;
+    margin-left: 200px;
 }
 
 .lista__menu {
     display: flex;
-    margin: auto 104px;
+    margin: auto 300px;
 }
 
 .menu__item{
@@ -32,7 +32,7 @@
 .menu__link{
     text-decoration: none;
     color: var(--texto-branco);
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .menu__link:hover{

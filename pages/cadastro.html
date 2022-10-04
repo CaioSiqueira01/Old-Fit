@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old Fit - Cadastro</title>
+    <link rel="stylesheet" href="../assets/styles/reset.css">
+    <link rel="stylesheet" href="../assets/styles/cadastro.css">
+</head>
+<body>
+    <header class="container__header">
+        <div class="logo">
+            <a href="/index.html"><img src="../assets/img/header/Logo.svg" alt="Logo do site"></a>
+        </div>
+        <nav class="menu">
+            <ul class="lista__menu">
+                <li class="menu__item">
+                    <a href="./exercicios.html" class="menu__link">Exercícios</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./login.html" class="menu__link">Login/cadastro</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <div class="form__cadastro">
+                <section class="cadastro">
+                  <div class="titulo__cadastro">
+                    <h1>Cadastro</h1>
+                  </div>
+                  <form class="formulario__cadastro">
+                    <div>
+                      <label for="name" class="input_cadastro">Nome:</label>
+                      <input type="text" name="name" id="name" class="input__cadastro_name"/>
+                      <label for="idade" class="input_cadastro">Idade:</label>
+                      <input type="number" name="idade" id="idade" class="input__idade"/>
+                    </div>
+
+                    <label for="email" class="input_cadastro">E-mail:</label>
+                    <input type="email" name="email" id="email" class="input__cadastro" />
+                    <label for="senha" class="input_cadastro">Senha:</label>
+                    <input type="password" name="senha" id="senha" class="input__cadastro"/>
+                    <label for="confirma_senha" class="input_cadastro">Confirmar senha:</label>
+                    <input type="password" name="confirma_senha" id="confirma_senha" class="input__cadastro"/>
+                    <div>
+                      <label for="sexo" class="input_cadastro">Sexo:</label>
+                      <select name="sexo" id="sexo" class="selecao" id="sexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                      </select>
+                      <div class="atv__fisica">
+                          <label for="atvd_fisica" class="input_cadastro">Nível de atividade física:</label>
+                          <select name="atvd_fisica" id="atvd_fisica" class="selecao">
+                            <option value="sendentario">Frequentemente</option>
+                            <option value="ocasionalmente">Ocasionalmente</option>
+                            <option value="frequentemente">Sedentarismo</option>
+                          </select>
+                      </div>
+                    </div>
+                    <input type="submit" value="Cadastrar" class="botao__cadastrar"/>
+                  </form>
+                </section>
+              </div>
+        </main>
+    <footer class="rodape"> 
+        <div class="midias">
+            <div class="midias__titulo">
+                <h2 class="titulo__rodape">Midias sociais</h2>
+            </div>
+            <ul class="lista__rodape">
+                <li class="rodape__item"><img src="./assets/img/footer/facebook.svg" alt=""></li>
+                <li class="rodape__item"><img src="./assets/img/footer/instagram.svg" alt=""></li>
+                <li class="rodape__item"><img src="./assets/img/footer/twitter.svg" alt=""></li>
+            </ul>
+        </div>
+        <div class="rodape__textos">
+            <p class="rodape__texto">Central SAC: (xx) xxxx-xxxx</p>
+            <p class="rodape__texto">Copyright © 2022</p>
+            <p class="rodape__texto">Email: Oldfit@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
