@@ -1,0 +1,71 @@
+@import url(../root.css);
+@import url(../header/header.css);
+@import url(../footer/footer.css);
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-body);
+}
+
+.banner{
+    background: url(../../img/banner/Imagem-Banner.svg) no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+
+.button__espacamento{
+    display: flex;
+    padding-top: 255px;
+}
+
+.button{
+    background: var(--vermelho-primário);
+    width: 329px;
+    height: 99px;
+    border-radius: 32px;
+    border: none;
+    filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.button__link{
+    text-decoration: none;
+    color: var(--branco-primário);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    background: var(--fundo-card);
+    width: 1163px;
+    height: 295px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.35);
+    border-top: 4px solid var(--vermelho-primário);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 97px;
+    display: flex;
+    text-align: center;
+}
+
+.card__titulo{
+    color: var(--texto-primário);
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-top: 32px;
+    border-bottom: 0.8px solid #4D4D4D;
+}
+
+.card__descricao{
+    color: var(--texto-secundário);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px; 
+    margin: 50px 30px;
+ 
+}

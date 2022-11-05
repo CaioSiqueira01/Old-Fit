@@ -1,0 +1,26 @@
+header{
+    background-color: var(--branco-primário);
+}
+
+.flex-header{
+    display: flex;
+    background: var(--branco-primário);
+    height: 135px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.logo, .menu, .lista__menu{
+    display: flex;
+}
+
+.menu__item{
+    padding-right: 155px;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: var(--texto-preto);
+    font-size: 1.5rem;
+}

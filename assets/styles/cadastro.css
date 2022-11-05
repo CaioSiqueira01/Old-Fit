@@ -1,86 +1,68 @@
-@import url(../styles/home.css);
+@import url(../styles/root.css);
+@import url(../styles/header/header.css);
+@import url(../styles/footer/footer.css);
 
-:root {
-    --fundo-cinza: #818181;
-    --fundo-card: #f8c2c2;
-    --texto-branco: #ffffff;
-    --texto-preto: #000000;
-    --cor-butao: #4adeff;
-    --butao-hover: blue;
-  }
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-body);
+}
+
   .form__cadastro {
-    margin: 100px 400px 0px 400px;
+    margin: 60px 400px 0px 400px;
   }
   .cadastro {
-    background-color: var(--fundo-card);
+    background-color: var(--branco-primário);
     justify-content: left;
     border-radius: 32px;
     padding-bottom: 50px;
+    border-top: 5px solid var(--vermelho-primário);
   }
   .titulo__cadastro {
-    font-size: 50px;
-    font-weight: bold;
     text-align: center;
     margin-top: 56px;
     padding-bottom: 15px;
     padding-top: 15px;
   }
-  .input_cadastro {
-    font-size: 25px;
+
+  .titulo{
+    font-size: 3.5rem;
     font-weight: bold;
-    padding: 15px 0px 15px 100px;
   }
-  /*input__cadastro se refere ao próprio input e input_cadastro é a label */
-  .input__cadastro {
-    width: 400px;
-    height: 36px;
-    border: none;
-    border-radius: 32px;
-    margin-left: 120px;
-  }
-  .formulario__cadastro {
+  
+  .formulario__cadastro{
     display: flex;
     flex-direction: column;
   }
-  .input__idade {
-    width: 100px;
-    height: 36px;
-    border: none;
-    border-radius: 32px;
-    margin-left: 20px;
-    margin-top: 20px;
+
+  .input__div{
+    margin: 20px 40px;
   }
-  .selecao {
-    width: 160px;
-    height: 30px;
-    margin-left: 20px;
-    font-size: 18px;
-    border-radius: 32px;
+
+  .input__titulo{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--texto-preto);
+    margin-right: 20px;
   }
-  .botao__cadastrar {
-    width: 230px;
-    height: 46px;
-    font-weight: bold;
+
+  .input{
+    width: 15vw;
+    height: 35px;
     border-radius: 32px;
     border: none;
-    color: var(--texto-branco);
-    background: var(--cor-butao);
+    background-color: var(--background-body);
+  }
+
+  .form__butao{
+    width: 15vw;
+    height: 65px;
+    border-radius: 32px;
+    border: none;
+    background-color: var(--vermelho-primário);
+    color: var(--branco-primário);
+    font-size: 1.3rem;
+    font-weight: 700;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin-left: 220px;
-    cursor: pointer;
-    transition: 0.5s;
-    margin-top: 40px;
+    margin-top: 30px;
   }
-  .input__cadastro_name {
-    width: 400px;
-    height: 36px;
-    border: none;
-    border-radius: 32px;
-    margin-left: 20px;
-  }
-  #sexo {
-    margin-top: 20px;
-  }
-  
- .atv__fisica{
-    margin-top: 20px;
- }

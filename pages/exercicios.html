@@ -6,56 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Old Fit - Exercícios</title>
     <link rel="stylesheet" href="../assets/styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/styles/exercicios.css">
 </head>
 <body>
     <header class="container__header">
-        <div class="logo">
-            <a href="/index.html"><img src="../assets/img/header/Logo.svg" alt="Logo do site"></a>
+        <div class="container flex-header">
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/img/header/Logo.svg" alt="Logo do site"></a>
+            </div>
+            <nav class="menu">
+                <ul class="lista__menu">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Exercícios</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Estatísticas</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="./login.html" class="menu__link">Login/cadastro</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav class="menu">
-            <ul class="lista__menu">
-                <li class="menu__item">
-                    <a href="./exercicios.html" class="menu__link">Exercícios</a>
-                </li>
-                <li class="menu__item">
-                    <a href="./login.html" class="menu__link">Login/cadastro</a>
-                </li>
-            </ul>
-        </nav>
     </header>
 
     <section class="conteudo__geral">
         <div class="conteudo">
-            <h1 class="titulo__card">EXERCÍCIOS</h1>
-        </div>
-        <div class="caminhada__card">
-                <h1 class="titulo__caminhada">Caminhada</h1>
-                <p class="descricao__caminhada"> Uma simples caminhada pode ajudar a prevenir doenças cardiovasculares, pois contribui para a circulação sanguínea. Além disso, o exercício é uma ótima forma de trabalhar a respiração, fortalecer o corpo e até mesmo cuidar da mente.</p>
-                <p class="descricao__caminhada">Agora vamos entender como o idoso pode fazer essas caminhadas em casa: vale ser no quintal, algumas voltas ao redor da casa ou até mesmo de um sofá, uma mesa ou no corredor. Outra maneira de praticar são as chamadas caminhadas estacionárias, ideais para espaços pequenos: ela consiste em um movimento de marcha feito sem sair do lugar – elevando os joelhos até a altura da cintura se possível.</p> 
-
-        </div>
-
-        <div class="panturrilha__card">
-            <h1 class="titulo__panturrilha">Exercícios para a panturrilha</h1>
-            <p class="descricao__panturrilha"> Os exercícios para a panturrilha são excelentes para o fortalecimento das pernas, o que pode contribuir para a movimentação do idoso e, consequentemente, para sua autonomia diária. A atividade é bem simples: basta apoiar as mãos na parede, alinhar os pés deixando-os levemente separados e erguer os calcanhares do chão, retornando em seguida.</p>
-            <h3 class="info__panturrilha">Ficou com dúvidas na execução? Acesseo vídeo abaixo.</h3>
-            <iframe class="image__panturrilha" width="560" height="315" src="https://www.youtube.com/embed/IKDW3_Vchqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-        <div class="agachamento__card">
-            <h1 class="titulo__agachamento"> Agachamento Simples</h1>
-            <p class="descricao__agachamento"> Outro exercício bem simples é o agachamento, que pode ser realizado com o auxílio de uma cadeira. É só sentar e levantar da cadeira algumas vezes, buscando sempre manter a coluna ereta.</p>
-            <p class="descricao__agachamento"> Essa atividade é excelente para fortalecer a musculatura das pernas, pois trabalha a parte anterior das coxas. Uma adaptação desse exercício para os idosos que não conseguem se levantar é manter-se sentado, apenas elevando os pés do chão e esticando as pernas.</p> 
-            <h3 class="info__agachamento">Ficou com dúvidas na execução? Acesseo vídeo abaixo.</h3>
-            <iframe class="image__agachamento" width="560" height="315" src="https://www.youtube.com/embed/L9zJMtE6lPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1 class="titulo__conteudo">EXERCÍCIOS</h1>
+            <div class="card">
+                <h1 class="titulo__card">Caminhada</h1>
+                <p class="descricao__card"> Uma simples caminhada pode ajudar a prevenir doenças cardiovasculares, pois contribui para a circulação sanguínea. Além disso, o exercício é uma ótima forma de trabalhar a respiração, fortalecer o corpo e até mesmo cuidar da mente.</p>
+                <p class="descricao__card">Agora vamos entender como o idoso pode fazer essas caminhadas em casa: vale ser no quintal, algumas voltas ao redor da casa ou até mesmo de um sofá, uma mesa ou no corredor. Outra maneira de praticar são as chamadas caminhadas estacionárias, ideais para espaços pequenos: ela consiste em um movimento de marcha feito sem sair do lugar – elevando os joelhos até a altura da cintura se possível.</p> 
+            </div>
+            <div class="card">
+                <h1 class="titulo__card">Exercícios para a panturrilha</h1>
+                <p class="descricao__card"> Os exercícios para a panturrilha são excelentes para o fortalecimento das pernas, o que pode contribuir para a movimentação do idoso e, consequentemente, para sua autonomia diária. A atividade é bem simples: basta apoiar as mãos na parede, alinhar os pés deixando-os levemente separados e erguer os calcanhares do chão, retornando em seguida.</p>
+                <h3 class="info__card">Ficou com dúvidas na execução? Acesseo vídeo abaixo.</h3>
+                <iframe class="video__card" width="560" height="315" src="https://www.youtube.com/embed/IKDW3_Vchqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="card">
+                <h1 class="titulo__card"> Agachamento Simples</h1>
+                <p class="descricao__card"> Outro exercício bem simples é o agachamento, que pode ser realizado com o auxílio de uma cadeira. É só sentar e levantar da cadeira algumas vezes, buscando sempre manter a coluna ereta.</p>
+                <p class="descricao__card"> Essa atividade é excelente para fortalecer a musculatura das pernas, pois trabalha a parte anterior das coxas. Uma adaptação desse exercício para os idosos que não conseguem se levantar é manter-se sentado, apenas elevando os pés do chão e esticando as pernas.</p> 
+                <h3 class="info__card">Ficou com dúvidas na execução? Acesseo vídeo abaixo.</h3>
+                <iframe class="video__card" width="560" height="315" src="https://www.youtube.com/embed/L9zJMtE6lPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
     </section>
 
     <footer class="rodape">
         <div class="midias">
             <div class="midias__titulo">
-                <h2 class="titulo__rodape">Midias sociais</h2>
+                <h2 class="titulo__rodape">Nos siga nas mídias sociais!</h2>
             </div>
             <ul class="lista__rodape">
                 <li class="rodape__item"><img src="../assets/img/footer/facebook.svg" alt=""></li>
@@ -63,7 +69,7 @@
                 <li class="rodape__item"><img src="../assets/img/footer/twitter.svg" alt=""></li>
             </ul>
         </div>
-        <div class="rodape__textos">
+        <div class="rodape__textos container">
             <p class="rodape__texto">Central SAC: (xx) xxxx-xxxx</p>
             <p class="rodape__texto">Copyright © 2022</p>
             <p class="rodape__texto">Email: Oldfit@gmail.com</p>
